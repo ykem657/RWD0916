@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $('.top a').click(function (e) { 
      e.preventDefault();
-
+      console.log('click');
      $('html, body').animate({
       scrollTop: 0}, 800 , 'easeInOutCubic');
     
